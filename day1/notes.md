@@ -1,3 +1,10 @@
+# How to start:
+* Start Ubuntu from the USB stick by holding in the key for "boot options" while starting yoru computer, and selecting to boot from USB.
+* In Ubuntu Linux, select the start menu icon on the top right of your screen.
+* In the search box, write Terminal
+* Click on the Terminal icon
+* In the terminal, write "python" and press ENTER
+
 # The interpreter prompt
 * The computer prints a "prompt", >>>, and waits for your imput
 * You write a command and press ENTER
