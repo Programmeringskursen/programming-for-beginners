@@ -1,4 +1,4 @@
-# Om kursen
+# Course plan
 
 * For beginneres who've never coded before
 * Python based
