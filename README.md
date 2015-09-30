@@ -1,4 +1,4 @@
-# Day 1, 2: Functions & imperative programming
+# Day 1, 2: Introduction to types & expressions
 * What is a computer (trick question!)
 * Interpreter prompt
 * Expressions
