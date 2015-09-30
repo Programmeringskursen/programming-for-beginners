@@ -5,16 +5,18 @@
   * Numerical
   * Strings
   * Boolean
-* Composite types (lists, dicts)
+  * Lists (NOT dictionaries! Confuses people at this stage)
 * Variables
   * References / pointers!
+* Types, type(obj), type(type(obj))
+* Classes and objects
+* Methods
+  * Parameters
+  * Local variables
+  * (Recursion)
 * Flow control
   * Branching
   * Loops
-* Functions
-  * Parameters
-  * Local variables
-  * Recursion
 * Text editor
 * Modules / import
 
@@ -30,12 +32,9 @@
 
 # Day 3, 4, 5: Object oriented programming
 * IPython Notebook
-* Objects
-  * Classes & methods
-  * Instances
+* More on objects
   * Inheritance
   * Special methods
-  * Type system - typen av typen typ är typen typ, typ
 * Storage
   * Files
   * Data format: JSON
