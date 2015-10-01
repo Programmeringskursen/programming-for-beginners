@@ -1,4 +1,4 @@
-# Course plan
+# Course overview
 
 * For beginneres who've never coded before
 * Python based
@@ -17,3 +17,6 @@
   * Towers of hanoi
   * AI maze walking bot
   * Network comminucation - multiplayer add-on to the text-based game
+
+Detailed course plan:
+https://github.com/Programmeringskursen/Programmeringskursen/blob/master/OUTLINE.md
