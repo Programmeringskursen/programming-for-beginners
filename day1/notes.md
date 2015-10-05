@@ -30,19 +30,13 @@
 * "Hello " + "world"
 * "Hello world"[0:5]
 
-# Dictionaries
-* {"a": 1, "b": 2}
-* {"a": 1, "b": 2}["a"]
-* {"a": 1, "b": {"c": 3, "a": 5}}["b"]["c"]
-
 # Variables
 * x = 3
-* myDict={"a": 1, "b": 2}
+* myList=["Hello", "strange", "world"]
 * Retains their value until changed with a new assignement (x = something)
 
-# Modifying dictionaries
-* x = {"a": 1, "b": 2}
-* x["a"] = 3
-
+# Modifying lists
+* x = ["Hello", "strange", "world"]
+* x[1] = "happy"
 
 
