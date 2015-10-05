@@ -30,6 +30,10 @@
 * "Hello " + "world"
 * "Hello world"[0:5]
 
+# print
+* Writing just an expression is a shortcut for print
+* print "Hello world"
+
 # Variables
 * x = 3
 * myList=["Hello", "strange", "world"]
