@@ -7,3 +7,4 @@
   * AI maze walking bot
   * Network comminucation - multiplayer add-on to the text-based game
   * https://www.codementor.io/python/tutorial/build-snake-game-using-curses
+  * Game of Life
