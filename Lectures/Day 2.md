@@ -56,3 +56,23 @@ Custom objects like our apple1 functions kind of like containers for variables -
     >>> apple1.cost = 45
     >>> apple1.weight
     3
+
+In this respect, custom objects are also similar to lists - they are both **composite objects**.
+
+# Methods provide new functionality
+
+    >>> class Basket(object):
+    ...     def addContent(self, x):
+    ...         self.weight = self.weight + x
+    ...     def getContent(self):
+    ...         return self.weight
+    ... 
+    >>> myBasket = Basket()
+    >>> myBasket.weight = 0
+    >>> myBasket.addContent(4)
+    >>> myBasket.addContent(1)
+    >>> myBasket.getContent()
+    5
+    >>> myBasket.getContent() + 3
+    8
+    >>> 
