@@ -62,8 +62,8 @@ In this respect, custom objects are also similar to lists - they are both **comp
 # Methods provide new functionality
 
     >>> class Basket(object):
-    ...     def addContent(self, x):
-    ...         self.weight = self.weight + x
+    ...     def addContent(self, item):
+    ...         self.weight = self.weight + item
     ...     def getContent(self):
     ...         return self.weight
     ... 
@@ -75,6 +75,8 @@ In this respect, custom objects are also similar to lists - they are both **comp
     5
     >>> myBasket.getContent() + 3
     8
+
+Note the variable **item**. **item** is a *parameter* to the method, which means that its value is assigned when the method is *called*. **self** is a special parameter that's allways present - it contains the current object, in this case **myBasket**.
 
 To make the basket more usefull, let's make it contain a list of items:
 
@@ -98,3 +100,26 @@ To make the basket more usefull, let's make it contain a list of items:
     15
 
 How would you write a getAverageWeight method?
+
+# Flow control
+Doing things only if some condition is True:
+
+    if expression:
+        statements
+        ...
+    else:
+        statements
+        ...
+
+Doing things for each item in a list:
+
+    for item in list:
+        statements using the variable item
+        ...
+
+Doing things over and over as long as some condition is True
+
+    while expression:
+        statements executed over and over again until expression is False
+        ...
+ 
