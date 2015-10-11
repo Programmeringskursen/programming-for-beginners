@@ -75,4 +75,26 @@ In this respect, custom objects are also similar to lists - they are both **comp
     5
     >>> myBasket.getContent() + 3
     8
-    >>> 
+
+To make the basket more usefull, let's make it contain a list of items:
+
+    >>> class Basket(object):
+    ...     def __init__(self):
+    ...         self.content = []
+    ...     def addContent(self, item):
+    ...         self.content.append(item)
+    ...     def getContent(self):
+    ...         content = 0
+    ...         for item in self.content:
+    ...             content = content + item
+    ...         return content
+    ...     def getContentItems(self):
+    ...         return self.content
+    ... 
+    >>> basket1 = Basket()
+    >>> basket1.addContent(5)
+    >>> basket1.addContent(10)
+    >>> basket1.getContent()
+    15
+
+How would you write a getAverageWeight method?
