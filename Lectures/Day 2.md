@@ -123,3 +123,29 @@ Doing things over and over as long as some condition is True
         statements executed over and over again until expression is False
         ...
  
+# Modules
+We've now started writing complicated enough code that copy-pasting it into the prompt over and over is a bit cumbersome, and soon it will also be hard to organize the growing amount of code.
+
+    class Basket(object):
+        def __init__(self):
+            self.content = []
+        def addContent(self, item):
+            self.content.append(item)
+        def getContent(self):
+            content = 0
+            for item in self.content:
+                content = content + item
+            return content
+        def getContentItems(self):
+            return self.content
+
+The Basket class above can be placed inside a file called **basket.py**. This file casn then be loaded from python using the **import** statement:
+
+    >>> import basket
+    >>> basket1 = basket.Basket()
+    >>> basket1.addContent(5)
+    >>> basket1.addContent(10)
+    >>> basket1.getContent()
+    15
+
+Note the **basket.Basket()**. The import call assigns a *module object* to a variable with the same name as the module. All the global variables created inside the module file are available as attributes on the **module object**, in this case the **Basket** class.
