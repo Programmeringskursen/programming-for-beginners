@@ -149,3 +149,7 @@ The Basket class above can be placed inside a file called **basket.py**. This fi
     15
 
 Note the **basket.Basket()**. The import call assigns a *module object* to a variable with the same name as the module. All the global variables created inside the module file are available as attributes on the **module object**, in this case the **Basket** class.
+
+Realoading an already loaded module (to load any changes to the file):
+
+    reload(basket)
