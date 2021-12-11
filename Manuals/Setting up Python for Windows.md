@@ -1,4 +1,4 @@
-# Setting up Python for Windows using packages from python.org/pygame.org
+# Setting up Python for Windows
 
 * Download and install [Python](https://www.python.org/downloads/)
 * Download and install [Notepad++](https://notepad-plus-plus.org/downloads/)
