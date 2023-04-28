@@ -2,7 +2,7 @@
 
 * For beginneres who've never coded before
 * Python based
-* 4 weekend sessions, 4 to 6 hours each
+* 4 weekend sessions, 4 to 6 hours each, or a slightly slimmed version in a full weekend, 8 to 10 hours per day
 * Project based learning
   * A small project each session
   * Librarification of tools developed in the projects 
